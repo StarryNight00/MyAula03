@@ -37,7 +37,7 @@ namespace Piramide
                 {
                     Console.Write("*");
                 }
-
+                
                 //Nova linha vazia
                 Console.WriteLine(); //altern: Console.Write("\n");
             }
