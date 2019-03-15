@@ -6,17 +6,20 @@ namespace IncDec
     {
         static void Main(string[] args)
         {
-            // Mudificar para mostrar a e b antes de cada operação
+            // Modificar para mostrar a e b antes de cada operação. Repor variáveis
             int a = 5;
             int b = -6;
             int c;
             int d;
             int e;
-            int f;
+            int f = 0;
 
             c = a++ + b++;
+
             d = ++a - ++b;
+
             e = a-- + ++b;
+
             f = --a - --b;
 
             Console.WriteLine(a);
